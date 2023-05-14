@@ -1,0 +1,23 @@
+.cmty_pic{
+    width: 100% !important;
+    border: 8px solid #f8f8f8;
+    /* border-style: outset; */
+}
+.nam_comti{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.text_detail{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:600px) {
+    .cmty_pic{
+        width: 60% !important;
+    }
+}

@@ -1,0 +1,29 @@
+
+.poster{
+    /* width: 10%; */
+    border: 8px solid white;
+}
+
+:where(.css-dev-only-do-not-override-1e3x2xa).ant-image .ant-image-img {
+    /* width: 60%; */
+    height: auto;
+    vertical-align: middle;
+}
+
+.paper_details{
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.event_main_name{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 800;
+}
+
+.paper_date{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 25px;
+}

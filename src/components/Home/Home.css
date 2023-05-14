@@ -1,0 +1,134 @@
+body {
+  overflow-x: hidden !important;
+}
+
+/* slider style */
+
+.pic_styl {
+  width: 100%;
+  height: 100%;
+}
+
+.mission_outer_layer {
+  background-color: #eee2dc;
+}
+
+.aim {
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 2.5rem;
+}
+.pera_styl {
+  text-align: justify !important;
+  font-size: 20px;
+  line-height: 25px;
+  word-spacing: 2px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.mission_back_tone {
+  background-color: #d14054;
+  color: white;
+  border-top: 20px solid #ff9dab;
+  padding: 60px 60px;
+}
+.vision_back_tone {
+  background-color: #ff9dab;
+  color: white;
+  border-top: 20px solid #d14054;
+  padding: 73px 60px 172px;
+}
+.msion_img_sty {
+  width: 25%;
+}
+.vision_img_sty {
+  width: 25%;
+  color: white !important;
+}
+
+.intro_bx_layer {
+  width: 45%;
+  height: 315px;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+  background: rgb(123, 117, 117);
+  border-radius: 50px;
+  width: 5% !important;
+  height: 61px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "prev";
+  color: white !important;
+  font-size: 35px !important;
+  font-weight: bolder !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+  background: rgb(123, 117, 117);
+  border-radius: 50px;
+  width: 5% !important;
+  height: 61px !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "next";
+  color: white !important;
+  font-size: 35px !important;
+  font-weight: bolder !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  display: none !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none !important;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  display: none !important;
+}
+
+  .intro_bx_layer {
+    width: 90%;
+    height: 172px;
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+  .pic_styl {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .mission_back_tone {
+    padding: 0px 6% 0px;
+  }
+  .vision_back_tone {
+    padding: 34px 5% 36px;
+  }
+
+}

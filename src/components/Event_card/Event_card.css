@@ -1,0 +1,61 @@
+/* animations */
+.up_diss:hover .main_diss{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.display{
+    /* border: 8px solid #f8f8f8; */
+    overflow: hidden;
+}
+.up_diss{
+    overflow: hidden;
+}
+.main_diss{
+    border: 8px solid white;
+    width: 50% !important;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.post_titel{
+    font-weight: 700 ;
+    letter-spacing: 0px;
+    color:#123c69 ;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.paly_dat_vani{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+}
+
+.post_detail{
+    color: #626262;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+}
+
+.more_detail{
+    background: rgba(0,0,0,.02);
+    padding: 7px 15px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.bbtn{
+    border: none;
+    /* border-radius: 6px; */
+    background: transparent;
+    border-left: 1px solid gray;
+    color:#123c69 ;
+    font-weight: 500;
+}
+
+.read_wala{
+    font-family: 'Sriracha', cursive;
+}
+
+@media only screen and (max-width:600px) {
+
+}

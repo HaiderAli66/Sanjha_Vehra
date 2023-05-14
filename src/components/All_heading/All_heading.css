@@ -1,0 +1,42 @@
+
+
+  .four_inner_layer {
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px 0px; */
+  }
+
+  .line_sty {
+    width: 30% !important;
+  }
+
+  .mv_heading_tone {
+    color: #123c69;
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .under_line_sty{
+    width: 36% !important;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .line_sty {
+        width: 65% !important;
+      }
+
+      .mv_heading_tone{
+        color: #123c69;
+        font-size: 30px;
+        line-height: 46px;
+        font-weight: 900;
+        letter-spacing: 6px;
+        font-family:auto;
+      }
+
+  }

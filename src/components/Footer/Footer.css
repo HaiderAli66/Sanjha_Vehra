@@ -1,0 +1,26 @@
+
+.copy_back_varient{
+    background-color: #1d2044;
+}
+
+.rite{
+    padding: 30px 0px 40px 0px;
+}
+
+.rigth_tone{
+    color: #cccccc;
+    font-size: 17px;
+    font-family: calibri;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.lst_ic{
+    font-size: 18px;
+}
+.lst_ico{
+    font-size: 22px;
+}

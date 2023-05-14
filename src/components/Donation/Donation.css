@@ -1,0 +1,30 @@
+.about_back_tone{
+    background-color: #eee2dc;
+}
+
+.ft_count{
+    box-shadow: 0px 1px 12px -2px #ac3b61 !important;
+    border-radius: 10px;
+}
+
+.account_title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 29px;
+    font-weight: 700;
+}
+.acount_details_titl{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.number_vc{
+    word-spacing: 30px !important;
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .jazz{
+        margin-top: 3.5rem !important;
+    }
+}
